@@ -5,4 +5,4 @@
 def lookup(obj):
     """doc"""
 
-    dir(obj)
+    return dir(obj)
