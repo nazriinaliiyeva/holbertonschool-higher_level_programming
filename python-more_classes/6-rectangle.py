@@ -1,15 +1,18 @@
 #!/usr/bin/python3
 """Defines a Rectangle class with width, height, area, perimeter, printing,
-and deletion message."""
+number of instances, and deletion message."""
 
 
 class Rectangle:
     """Represents a rectangle."""
 
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle with optional width and height."""
         self.width = width
         self.height = height
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -64,3 +67,4 @@ class Rectangle:
     def __del__(self):
         """Print a message when an instance of Rectangle is deleted."""
         print("Bye rectangle...")
+        Rectangle.number_of_instances -= 1
