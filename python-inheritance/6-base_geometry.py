@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""doc"""
+"""define base geometry"""
 
 
 class BaseGeometry:
-    """doc"""
+    """base class"""
+
     def area(self):
-        """doc"""
-        raise Exception "area() is not implemented"
+        """calculate area"""
+        raise Exception("area() is not implemented")
