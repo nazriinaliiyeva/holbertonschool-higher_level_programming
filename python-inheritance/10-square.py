@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A Square class"""
+"""A Square class is created"""
 
 
 Rectangle = __import__('9-rectangle.py').Rectangle
