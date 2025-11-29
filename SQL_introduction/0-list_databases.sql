@@ -1,4 +1,2 @@
--- List all databases sorted alphabetically
-SELECT SCHEMA_NAME AS Database
-FROM INFORMATION_SCHEMA.SCHEMATA
-ORDER BY SCHEMA_NAME;
+-- Lists all databases of MySQL server
+SHOW DATABASES;
