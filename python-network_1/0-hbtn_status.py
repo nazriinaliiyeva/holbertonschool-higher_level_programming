@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Fetches https://intranet.hbtn.io/status using urllib.
+This script opens the URL, reads the body, and prints information about it.
+"""
 
 
 from urllib import request
