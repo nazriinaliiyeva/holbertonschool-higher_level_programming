@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-"""a Python script that fetches https://intranet.hbtn.io/status"""
+"""
+Fetches https://intranet.hbtn.io/status using urllib.
+This module demonstrates fetching a URL with urllib and printing details.
+"""
+
+
 
 from urllib import request
 
