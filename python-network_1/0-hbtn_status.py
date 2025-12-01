@@ -11,7 +11,7 @@ from urllib import request
 if "__name__" == "__main__":
     url = "https://intranet.hbtn.io/status"
 
-    req = request.Request(url, headers={"cfclearance": "true"})
+    req = request.Request(url)
 
     with request.urlopen(req) as response:
         body = response.read()
