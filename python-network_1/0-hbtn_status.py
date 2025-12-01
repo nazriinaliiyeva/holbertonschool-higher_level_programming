@@ -12,6 +12,7 @@ if "__name__" = "__main__":
     url = "https://intranet.hbtn.io/status"
 
     with request.urlopen(url) as response:
+        """documentation"""
         body = response.read()
 
         print("Body response:")
