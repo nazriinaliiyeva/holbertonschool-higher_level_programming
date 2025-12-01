@@ -13,8 +13,7 @@ if "__name__" == "__main__":
 
     req = request.Request(url, headers={"cfclearance": "true"})
 
-    with request.urlopen(url) as response:
-
+    with request.urlopen(req) as response:
         body = response.read()
 
         print("Body response:")
