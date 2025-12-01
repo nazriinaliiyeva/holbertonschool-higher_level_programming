@@ -5,7 +5,6 @@ from urllib import request
 
 
 if "__name__" = "__main__":
-    """a Python script that fetches https://intranet.hbtn.io/status"""
     url = "https://intranet.hbtn.io/status"
 
     with request.urlopen(url) as response:
