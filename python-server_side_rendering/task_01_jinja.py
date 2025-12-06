@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""IT is doc string"""
+"""doc string"""
 
 from flask import render_template, Flask
 
